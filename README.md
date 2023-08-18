@@ -19,3 +19,10 @@ luego de crear el aboutme.html
 
 git add aboutme.html
 git commit -m "Agregado archivo aboutme.html con contenido de aboutme.html"
+
+
+git reset --hard 7b77d9a16a206144ced2bef606a56ca359309e28
+
+git checkout main
+git merge new_features
+git push origin main
